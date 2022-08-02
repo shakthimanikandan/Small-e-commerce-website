@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+.navbar {
+    color:rgb(103, 148, 13) !important;
+}
+
+#Home{
+    background-image: url(../img/bg.jfif);
+    background-size: cover;
+    background-position: center;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Home{
+    flex-direction: column;
+    color: #fff;
+}
+
+#Home h1{
+    font-size: 100px;
+    color: #fff;
+    flex-direction: column;
+}
+
+.about{
+    background-color: gainsboro;
+    
+}
+#Products{
+    background-color:rgb(243, 237, 237);
+}
+#Products h2{
+    margin-top: 20px;
+}
+#Products img{
+    width:250px;
+    height: 200px;
+}
+.card{
+    
+    width: 300px;
+    height: 350px;
+    background:rgb(243, 237, 237)  !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px #fff;   
+    border-radius: 20px; 
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 50px;
+    transition: .2s; 
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px #fff;
+    transition: .2s;            
+}
+.box input{
+    margin: 10px;
+}
+.box textarea{
+    margin: 10px;
+}
+.box button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.contact{
+    background-color:rgb(248, 217, 248);
+}
+#span{
+    color:rgb(121, 165, 33);
+    font-weight: 500;
+}
+.footer{
+    background-color: azure;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#address{
+    margin-left: 10px;
+
+}
+.con a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.conn a{
+    font-size: 30px;
+    text-decoration: none;
+    color:rgb(103, 148, 13) ;
+}
+.item{
+    border: 1px solid;
+}
+h2 a{
+    text-decoration: none;
+    color: rgb(103, 148, 13);
+}
+h2 a:hover{
+    
+    color: rgb(103, 148, 13);
+}
